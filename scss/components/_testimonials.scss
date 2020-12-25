@@ -15,27 +15,61 @@
     margin: auto;
 
     &__card {
+        padding: 1.375rem 2.125rem 1.875rem; //26px 33px 30px
+        border-radius: 0.5rem;
+
+        --text-color: 255,255,255; // white
+        --border-color: 255, 255, 255; // white
+    
+        &.color-colored {
+            background-color: var(--moderate-violet);            
+            color: rgba(var(--text-color), 1);
+            
+        }
+        &.color-light {
+            background-color: var(--white);
+            --text-color: 72,85,106; // dark-grayish-blue rgb
+            color: rgba(var(--text-color), 1);
+        }
+        &.color-medium {
+            background-color: var(--dark-grayish-blue);
+            color: rgba(var(--text-color), 1);
         
+        }
+        &.color-dark {
+            background-color: var(--dark-blackish-blue);
+            --border-color: 117, 65, 200; // moderate-violet rgb
+            color: rgba(var(--text-color), 1);
+        }
     }
 
     &__person {
-        
+        margin-bottom: 1rem;
     }
 
     &__image {
-        
+        width: 2.125rem;
+        height: 2.125rem;
+        margin-right: 1rem;
+        border-radius: 50%;
+        border: 2px solid rgba(var(--border-color), 0.6);
     }
 
     &__position {
-       
+        color: rgba(var(--text-color), 0.5);
+        font-size: 0.75rem; //12px
     }
 
     &__accent {
-        
+        font-size: 1.25rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
     }
 
     &__review {
-        
+        color: rgba(var(--text-color), 0.7);
+        line-height: 1.35;
+        letter-spacing: .2px;
     }
 
 }
