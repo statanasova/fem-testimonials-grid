@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section
 
-![Link to the Testimonials grid section coding challenge](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
+[Link to the Testimonials grid section coding challeng](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
 
 
 ## The challenge
