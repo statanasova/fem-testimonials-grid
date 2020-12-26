@@ -54,9 +54,13 @@
         background-color: var(--moderate-violet);           
         background-image: url('/images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
-        background-position: 80% 0;
+        background-position: 90% 0;
 
         color: rgba(var(--text-color), 1);
+
+        @include breakpoint-up(large) {
+            background-position: 80% 0;
+        }
     }
     &__card--light {
         background-color: var(--white);

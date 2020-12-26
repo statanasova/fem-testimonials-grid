@@ -89,8 +89,14 @@ body {
   background-color: var(--moderate-violet);
   background-image: url("/images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
-  background-position: 80% 0;
+  background-position: 90% 0;
   color: rgba(var(--text-color), 1);
+}
+
+@media (min-width: 1200px) {
+  .testimonials__card--colored {
+    background-position: 80% 0;
+  }
 }
 
 .testimonials__card--light {
