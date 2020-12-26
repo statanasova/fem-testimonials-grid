@@ -45,9 +45,11 @@
     &__card {
         padding: 1.375rem 2.125rem 1.875rem; //26px 33px 30px
         border-radius: 0.5rem;
+        box-shadow: 42px 32px 78px -37px rgba(72,85,106,0.33);
 
         --text-color: 255,255,255; // white
         --border-color: 255, 255, 255; // white
+       
     }
 
     &__card--colored {

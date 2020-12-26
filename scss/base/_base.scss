@@ -1,9 +1,9 @@
 /* SETUP */
 
 html {
-    font-size: 100%; // Let the user control zoom level in the browser. Usally == 16px
     box-sizing: border-box;
     height: 100%;
+    font-size: 100%; // Let the user control zoom level in the browser. Usally == 16px
 }
 
 
@@ -12,6 +12,7 @@ html {
 }
 
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
     background: var(--light-grayish-blue);
