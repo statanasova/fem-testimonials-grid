@@ -1,12 +1,12 @@
 # Frontend Mentor - Testimonials grid section
 
-![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+![Link to the Testimonials grid section coding challenge](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
 
 
 ## The challenge
 
-Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
+Build out this testimonials grid section and get it looking as close to the design as possible.
 
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
