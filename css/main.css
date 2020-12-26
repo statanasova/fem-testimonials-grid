@@ -41,7 +41,7 @@ body {
 /* COMPONENTS */
 .main {
   height: 100%;
-  grid-template-columns: minmax(1.5rem, 1fr) minmax(20.4375rem, 68.75rem) minmax(1.5rem, 1fr);
+  grid-template-columns: minmax(1.5rem, 1fr) minmax(19.5rem, 68.75rem) minmax(1.5rem, 1fr);
   grid-template-rows: minmax(4.6875rem, 1fr) auto minmax(4.6875rem, 1fr);
 }
 
@@ -85,23 +85,26 @@ body {
   --border-color: 255, 255, 255;
 }
 
-.testimonials__card.color-colored {
+.testimonials__card--colored {
   background-color: var(--moderate-violet);
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 80% 0;
   color: rgba(var(--text-color), 1);
 }
 
-.testimonials__card.color-light {
+.testimonials__card--light {
   background-color: var(--white);
   --text-color: 72,85,106;
   color: rgba(var(--text-color), 1);
 }
 
-.testimonials__card.color-medium {
+.testimonials__card--medium {
   background-color: var(--dark-grayish-blue);
   color: rgba(var(--text-color), 1);
 }
 
-.testimonials__card.color-dark {
+.testimonials__card--dark {
   background-color: var(--dark-blackish-blue);
   --border-color: 117, 65, 200;
   color: rgba(var(--text-color), 1);
@@ -141,3 +144,4 @@ body {
     letter-spacing: unset;
   }
 }
+/*# sourceMappingURL=main.css.map */

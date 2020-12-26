@@ -1,6 +1,6 @@
 .main {
     height: 100%;
-    grid-template-columns: minmax(1.5rem, 1fr) minmax(20.4375rem, 68.75rem) minmax(1.5rem, 1fr);
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(19.5rem, 68.75rem) minmax(1.5rem, 1fr);
     grid-template-rows: minmax(4.6875rem, 1fr) auto minmax(4.6875rem, 1fr);
 }
 
@@ -48,27 +48,30 @@
 
         --text-color: 255,255,255; // white
         --border-color: 255, 255, 255; // white
+    }
+
+    &__card--colored {
+        background-color: var(--moderate-violet);           
+        background-image: url('/images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: 80% 0;
+
+        color: rgba(var(--text-color), 1);
+    }
+    &__card--light {
+        background-color: var(--white);
+        --text-color: 72,85,106; // dark-grayish-blue rgb
+        color: rgba(var(--text-color), 1);
+    }
+    &__card--medium {
+        background-color: var(--dark-grayish-blue);
+        color: rgba(var(--text-color), 1);
     
-        &.color-colored {
-            background-color: var(--moderate-violet);            
-            color: rgba(var(--text-color), 1);
-            
-        }
-        &.color-light {
-            background-color: var(--white);
-            --text-color: 72,85,106; // dark-grayish-blue rgb
-            color: rgba(var(--text-color), 1);
-        }
-        &.color-medium {
-            background-color: var(--dark-grayish-blue);
-            color: rgba(var(--text-color), 1);
-        
-        }
-        &.color-dark {
-            background-color: var(--dark-blackish-blue);
-            --border-color: 117, 65, 200; // moderate-violet rgb
-            color: rgba(var(--text-color), 1);
-        }
+    }
+    &__card--dark {
+        background-color: var(--dark-blackish-blue);
+        --border-color: 117, 65, 200; // moderate-violet rgb
+        color: rgba(var(--text-color), 1);
     }
 
     &__person {
