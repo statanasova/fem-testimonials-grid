@@ -10,3 +10,7 @@ Build out this testimonials grid section and get it looking as close to the desi
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
+
+## Solution
+
+[Link to live solution page](https://fem-testimonials-grid.statanasova.com)
